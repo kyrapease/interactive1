@@ -1,10 +1,82 @@
 
+
 body {
-  background: #f0b310
-  color:#332884
-  font-size: 22px
+  background-image: url("https://data.whicdn.com/images/135743230/large.jpg");
+  opacity: 50%;
 }
 
+body {
+  font-family: "century gothic";
+  font-size: 20px;
+  padding-left: 200px;
+  padding-right: 200px;
+  text-rendering: optimizeLegibility;
+  text-align: center;
+}
+
+#container {
+  max-width: 1000px
+}
 img {
-  max-width: 650px
+  max-width: 750px
+}
+
+p{
+  border-style: dotted;
+border-spacing: : 10px;
+}
+
+p{
+  border-style: dotted;
+border-spacing: : 10px;
+}
+
+p{
+  border-style: dotted;
+border-spacing: : 10px;
+}
+
+p{
+  border-style: dotted;
+border-spacing: : 10px;
+}
+h1{
+  font-family: 'Spicey Rice', cursive;
+  font-weight: bold;
+  font-size: 30px
+  color: black;
+}
+
+h2 {
+  font-family:"Spicy Rice", cursive;
+  font-size: 30px
+  color: black;
+}
+
+h3{
+  font-family: 'Spicey Rice', cursive;
+  font-weight: bold;
+  font-size: 30px
+  color: black;
+}
+
+h4{
+  font-family: 'Spicey Rice', cursive;
+  font-weight: bold;
+  font-size: 30px
+  color: black;
+}
+
+h5{
+  font-family: 'Spicey Rice', cursive;
+  font-weight: bold;
+  font-size: 30px
+  color: black;
+}
+
+h6{
+  font-family: 'Spicey Rice', cursive;
+  font-weight: bold;
+  font-size: 30px
+  color: black;
 }
