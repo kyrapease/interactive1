@@ -8,7 +8,8 @@ body {
 body {
   font-family: "Century Gothic", sans-serif;
   font-size: 18px;
-  padding-left: 200px;
+  line-height: 25px;
+  padding-left: 250px;
   padding-right: 200px;
   text-rendering: optimizeLegibility;
   text-align: center;
@@ -24,12 +25,7 @@ img {
 
 p {
   border-style: dotted;
-border-spacing: : 10px;
-}
-
-p {
-  border-style: dotted;
-  border-spacing: : 10px;
+  border-spacing: 50px;
   font-family:"Century Gothic", sans-serif;
   font-size: 20px;
   color: black;
@@ -37,41 +33,12 @@ p {
 
 h1 {
   font-family: "Spicy Rice", cursive;
-  font-size: 30px
+  font-size: 50px
   color: black;
 }
 
 h2 {
   font-family:"Century Gothic", sans-serif;
   font-size: 15px;
-  color: black;
-}
-
-h3{
-  font-family: 'Spicey Rice', cursive;
-  font-weight: bold;
-  font-size: 30px
-  color: black;
-}
-
-h4{
-  font-family: 'Spicey Rice', cursive;
-  font-weight: bold;
-  font-size: 30px
-  color: black;
-}
-
-h5{
-  font-family: 'Spicey Rice', cursive;
-  font-style:
-  font-weight: bold;
-  font-size: 30px
-  color: black;
-}
-
-h6{
-  font-family: 'Spicey Rice', cursive;
-  font-weight: bold;
-  font-size: 30px
   color: black;
 }
