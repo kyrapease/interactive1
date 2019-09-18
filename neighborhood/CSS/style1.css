@@ -6,12 +6,13 @@ body {
 }
 
 body {
-  font-family: "century gothic";
-  font-size: 20px;
+  font-family: "Century Gothic", sans-serif;
+  font-size: 18px;
   padding-left: 200px;
   padding-right: 200px;
   text-rendering: optimizeLegibility;
   text-align: center;
+  font-family: 'Spicy Rice', cursive;
 }
 
 #container {
@@ -21,35 +22,28 @@ img {
   max-width: 750px
 }
 
-p{
+p {
   border-style: dotted;
 border-spacing: : 10px;
 }
 
-p{
+p {
   border-style: dotted;
-border-spacing: : 10px;
+  border-spacing: : 10px;
+  font-family:"Century Gothic", sans-serif;
+  font-size: 20px;
+  color: black;
 }
 
-p{
-  border-style: dotted;
-border-spacing: : 10px;
-}
-
-p{
-  border-style: dotted;
-border-spacing: : 10px;
-}
-h1{
-  font-family: 'Spicey Rice', cursive;
-  font-weight: bold;
+h1 {
+  font-family: "Spicy Rice", cursive;
   font-size: 30px
   color: black;
 }
 
 h2 {
-  font-family:"Spicy Rice", cursive;
-  font-size: 30px
+  font-family:"Century Gothic", sans-serif;
+  font-size: 15px;
   color: black;
 }
 
@@ -69,6 +63,7 @@ h4{
 
 h5{
   font-family: 'Spicey Rice', cursive;
+  font-style:
   font-weight: bold;
   font-size: 30px
   color: black;
