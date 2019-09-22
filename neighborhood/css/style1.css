@@ -3,6 +3,7 @@
 body {
   background-image: url("https://data.whicdn.com/images/135743230/large.jpg");
   opacity: 50%;
+  text-align: center;
 }
 
 #container {
@@ -10,9 +11,14 @@ body {
   margin: 20px auto;
 }
 
-.img {
-  width: 100px;
-  margin: 750px auto;
+img {
+  width: 80%;
+}
+
+#toc {
+  font-family: "Chilanka", cursive;
+  font-size: 20px
+  color: black;
 }
 
 p {
