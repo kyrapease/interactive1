@@ -35,14 +35,14 @@ h1 {
   font-family:"Spicy Rice", cursive;
   font-size: 80px;
   color: black;
-  text-align: center;
+  margin: 20px auto;
 }
 
 h2 {
   font-family:"Spicy Rice", cursive;
   font-size: 40px;
   color: black;
-  text-align: center;
+  margin: 20px auto;
 }
 
 h3 {
