@@ -6,7 +6,7 @@ body {
 }
 
 .text-block {
-  width: 900px;
+  width: 1000px;
   margin: 20px auto;
 }
 #container {
@@ -28,17 +28,19 @@ h1 {
   font-family:"Spicy Rice", cursive;
   font-size: 80px;
   color: black;
+  text-align: center;
 }
 
 h2 {
   font-family:"Spicy Rice", cursive;
   font-size: 40px;
   color: black;
+  text-align: center;
 }
 
 h3 {
   font-family: "Annie Use Your Telescope", cursive;
-  font-size: 35px;
+  font-size: 25px;
   color: black;
   text-align: center;
 }
