@@ -5,7 +5,6 @@ body {
   opacity: 50%;
 }
 
-
 .text-block {
   width: 900px;
   margin: 20px auto;
@@ -17,11 +16,6 @@ body {
 .img {
   width: 50%;
   margin: 20px auto;
-}
-
-img.filter {
-  filter:sepia(75%);
-  filter:saturate(35);
 }
 
 p {
