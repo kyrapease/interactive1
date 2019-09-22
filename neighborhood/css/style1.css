@@ -5,15 +5,6 @@ body {
   opacity: 50%;
 }
 
-body {
-  font-family: "Century Gothic", sans-serif;
-  font-size: 18px;
-  line-height: 25px;
-  text-rendering: optimizeLegibility;
-  text-align: center;
-  font-family: 'Spicy Rice', cursive;
-}
-
 .text-block {
   width: 900px;
   margin: 20px auto;
@@ -27,9 +18,7 @@ img {
 }
 
 p {
-  border-style: dotted;
-  border-spacing: 50px;
-  font-family:"Century Gothic", sans-serif;
+  font-family:"Annie Use Your Telescope", cursive;
   font-size: 20px;
   color: black;
   text-align: center;
@@ -37,12 +26,19 @@ p {
 
 h1 {
   font-family:"Spicy Rice", cursive;
-  font-size: 100px;
+  font-size: 80px;
   color: black;
 }
 
 h2 {
   font-family:"Spicy Rice", cursive;
-  font-size: 60px;
+  font-size: 40px;
   color: black;
+}
+
+h3 {
+  font-family: "Annie Use Your Telescope", cursive;
+  font-size: 35px;
+  color: black;
+  text-align: center;
 }
