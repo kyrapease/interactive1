@@ -9,8 +9,9 @@ body {
   max-width: 800px;
   margin: 20px auto;
 }
+
 .img {
-  max-width: 900px;
+  width: 50%;
   margin: 20px auto;
 }
 
