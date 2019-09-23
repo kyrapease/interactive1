@@ -5,17 +5,30 @@ body {
 
 h1 {
   font-family:"Walter Turncoat", cursive;
-  font-size: 35px;
-  color:#324851;
+  font-size: 65px;
+  color: #324851;
 }
 
 p {
   font-family:"Chelsea Market", cursive;
-  font-size: 20px;
+  font-size: 40px;
   color:#2D4262;
 }
 
+h3 {
+  font-family: "Walter Turncoat", cursive;
+  font-size: 40px;
+  color: #324851;
+}
 
-#exercises a {
 
+#weekly-exercises a {
+font-family: "Chelsea Market", cursive;
+font-size: 20px;
+color: #2D4262;
+text-decoration: none;
+}
+
+#weekly-exercises a:hover {
+  color:#D09683;
 }
