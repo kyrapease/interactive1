@@ -4,6 +4,11 @@ body {
   opacity: 25%;
 }
 
+.text {
+  padding-left: 200px;
+  padding-right: 600px;
+}
+
 h1 {
   font-family:"Walter Turncoat", cursive;
   font-size: 65px;
