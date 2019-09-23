@@ -1,38 +1,250 @@
 
-body {
-  background: #fdfdf9;
-  font: 1.3rem/1 "Avenir LT W02 45 Book",sans-serif;
-  color: #5c5c5f;
-}
 
-
-
-.container {
-  position: relative;
-  width: 50%;
-}
-
-.rig-img {
-  display: block;
-  width: 25%;
-  height: auto;
-}
-
-.rig-overlay {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: 100%;
+.header {
+  background: #ffffff;
+  height: 60px;
   width: 100%;
-  opacity: 0;
-  transition: .5s ease;
-  background-color: #008CBA;
+  position: fixed;
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 400;
 }
 
-.rig-text {
-  font-family: "Montserrat", sans-serif;
-  font-size: 24px
-  color: black;
+body {
+    width: 100%;
+    height: 100%;
+    font-family: 'Source Sans Pro',sans-serif;
+    color: #3B444B;
+    background-color: #FFFFFF;
+}
+
+
+h6 {
+    margin: 0 0 35px;
+    text-transform: uppercase;
+    font-family: 'Source Sans Pro',sans-serif;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+
+
+h2 {
+    margin: auto;
+    width: 425px;
+    text-transform: none;
+    text-align: justify;
+    font-family: 'Source Sans Pro',sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    letter-spacing: 1px;
+    line-height: 19px;
+}
+
+p {
+    margin: 0 0 25px;
+    font-size: 5px;
+    line-height: 1.5;
+}
+
+a {
+    color: #3B444B;
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+}
+
+a:hover
+a:focus {
+    text-decoration: none;
+    color: #000;
+    cursor: pointer;
+}
+
+
+/* NAVBAR */
+
+.navbar-nav {
+        display:table;
+        text-align: justify;
+        float: none;
+        margin: 0 auto;
+        table-layout: fixed;
+    }
+
+.navbar-custom {
+    margin-bottom: 0;
+    border-bottom: none;
+    text-transform: uppercase;
+    font-family: "Crimson Text",serif;
+    background-color: #FFFFFF;
+}
+
+.navbar-custom .navbar-brand {
+    font-weight: 400;
+    letter-spacing: 5px;
+
+}
+
+.navbar-custom .navbar-brand:focus {
+    outline: 0;
+}
+
+.navbar-custom .navbar-brand .navbar-toggle {
+    padding: 4px 6px;
+    font-size: 14px;
+    color: #000;
+}
+
+.navbar-custom .navbar-brand .navbar-toggle:focus,
+.navbar-custom .navbar-brand .navbar-toggle:active {
+    outline: 0;
+}
+
+.navbar-custom a {
+    color: #000;
+    letter-spacing: 3px;
+    text-align: justify;
+}
+
+.navbar-custom .nav li.active {
+    outline: nonte;
+    background-color: transparent;
+}
+
+.navbar-custom .nav li a {
+    -webkit-transition: background .3s ease-in-out;
+    -moz-transition: background .3s ease-in-out;
+    transition: background .3s ease-in-out;
+}
+
+.navbar-custom .nav li a:hover,
+.navbar-custom .nav li a:focus,
+.navbar-custom .nav li a.active {
+    outline: 0;
+    color: #000;
+    background-color: transparent;
+}
+
+/* NAVBAR - MEDIA */
+
+@media(min-width:767px) {
+    .navbar {
+        padding: 20px 0;
+        border-bottom: 0;
+        letter-spacing: 1px;
+        background: 0 0;
+        -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        transition: background .5s ease-in-out,padding .5s ease-in-out;
+    }
+
+    .top-nav-collapse {
+        padding: 0;
+        background-color: #FFF;
+    }
+
+    .navbar-custom.top-nav-collapse {
+        border-bottom: 1px solid rgba(255,255,255,.3);
+    }
+}
+
+/* INTRO */
+
+.intro {
+    display: table;
+    width: 100%;
+    height: auto;
+    padding: 100px 0;
+    text-align: center;
+    color: #FFF;
+    font-size: 5px;
+    background: url(../img/landingjirka.jpg) no-repeat center;
+    background-color: #FFF;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.intro .intro-body {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.intro .intro-body .brand-heading {
+    font-size: 40px;
+}
+
+.intro .intro-body .intro-text {
+    font-size: 18px;
+}
+
+/* INTRO - MEDIA */
+
+@media(min-width:767px) {
+    .intro {
+        height: 100%;
+        padding: 0;
+    }
+
+    .intro .intro-body .brand-heading {
+        font-size: 100px;
+    }
+
+    .intro .intro-body .intro-text {
+        font-size: 25px;
+    }
+}
+
+
+ /* ABOUT */
+
+#lol {
+    margin: auto;
+    text-align: center;
+    margin-bottom: 50px;
+    background-color: #FFF;
+}
+
+/* ABOUT - MEDIA */
+
+#lol {
+    max-width: 480px;
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+
+}
+
+/* WORK */
+
+.work {
+    margin: auto;
+    max-width: 1500px;
+    text-align: justify;
+    margin-bottom: 50px;
+    padding-top: 100px;
+    padding-bottom: 20px;
+    background-color: #FFF;
+}
+
+.work-body a {
+    color: #000;
+    letter-spacing: 3px;
+    text-align: justify;
+}
+
+
+.work-body a {
+    -webkit-transition: background .3s ease-in-out;
+    -moz-transition: background .3s ease-in-out;
+    transition: background .3s ease-in-out;
+}
+
+.work-body a:hover,
+.work-body a:focus,
+.work-body a.active {
+    outline: 0;
+    color: #000;
+    background-color: transparent;
 }
