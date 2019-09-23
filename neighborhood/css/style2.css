@@ -1,4 +1,13 @@
 
 body {
-  background: pink;
+  background: #f3f3f3;
+}
+
+#header {
+  background: white;
+    position: fixed;
+}
+
+div {
+  display: block;
 }
