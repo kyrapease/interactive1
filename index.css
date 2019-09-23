@@ -1,6 +1,6 @@
 body {
   background-image: url("https://ak8.picdn.net/shutterstock/videos/12209288/thumb/1.jpg");
-  width: 200%;
+  background-repeat: no-repeat;
   opacity: 25%;
 }
 
@@ -21,6 +21,16 @@ h3 {
   font-size: 40px;
   color: black;
 }
+#exercises a {
+font-family: "Chelsea Market", cursive;
+font-size: 20px;
+color: black;
+text-decoration: none;
+}
+
+#exercises a:hover {
+  color:#D09683;
+}
 
 
 #weekly-exercises a {
@@ -31,5 +41,16 @@ text-decoration: none;
 }
 
 #weekly-exercises a:hover {
+  color:#D09683;
+}
+
+#projects a {
+font-family: "Chelsea Market", cursive;
+font-size: 20px;
+color: black;
+text-decoration: none;
+}
+
+#projects a:hover {
   color:#D09683;
 }

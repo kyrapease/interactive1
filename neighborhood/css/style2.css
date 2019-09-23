@@ -1,16 +1,11 @@
 
 body {
-  background: #f3f3f3;
+  background: #fdfdf9;
+  font: 1.3rem/1 "Avenir LT W02 45 Book",sans-serif;
+  color: #5c5c5f;
 }
 
-#header {
-  background: white;
-    position: fixed;
-}
 
-div {
-  display: block;
-}
 
 .container {
   position: relative;
