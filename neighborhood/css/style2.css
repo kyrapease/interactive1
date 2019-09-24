@@ -17,6 +17,18 @@ img {
   margin-right: auto;
 }
 
+#navbar {
+  background:white;
+  height: 60px;
+  position: fixed;
+  color: black;
+}
+#nav div {
+  display: inline-block;
+  padding-right: 20px;
+  
+}
+
 .collage {
   display: flex;
   align-items: center;
