@@ -18,7 +18,7 @@ img {
 }
 
 #navbar {
-  background:white;
+  background:blue;
   height: 60px;
   position: fixed;
   color: black;
@@ -26,7 +26,7 @@ img {
 #nav div {
   display: inline-block;
   padding-right: 20px;
-  
+
 }
 
 .collage {
