@@ -30,6 +30,8 @@ to position them
   width: 100px;
   height: 100px;
   background: black;
+  top: 100px;
+  left: 20px;
 
   /* try uncommenting the following code
   top: 100px;
@@ -95,6 +97,8 @@ to position them
   width: 150px;
   height: 150px;
   background: yellow;
+  left: 80px;
+  top: 390px;
 }
 
 #foot-2 {
