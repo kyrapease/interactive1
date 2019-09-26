@@ -20,7 +20,8 @@ img {
 #navbar {
   background:blue;
   height: 60px;
-  position: fixed;
+  position: sticky;
+  top: 0;
   color: black;
 }
 #nav div {
@@ -100,12 +101,6 @@ p {
 
 
 
-#lol {
-    margin: auto;
-    text-align: center;
-    margin-bottom: 50px;
-    background-color: #FFF;
-}
 
 /* ABOUT - MEDIA */
 
