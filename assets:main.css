@@ -5,7 +5,6 @@
 /* make the background of the page black */
 body { background: black;}
 
-/* mickey canvas */
   #canvas {
   width: 400px;
   height: 600px;
@@ -13,18 +12,10 @@ body { background: black;}
   background: white;
 }
 
-/* shapes */
-/* make all divs inside of #canvas a circle */
 #canvas div {
   border-radius: 200px;
   position: absolute;
 }
-
-/*
-adjust the top and left
-properties of the elements
-to position them
-*/
 
 #ear-1 {
   width: 100px;
@@ -32,11 +23,6 @@ to position them
   background: black;
   top: 100px;
   left: 20px;
-
-  /* try uncommenting the following code
-  top: 100px;
-  left: 20px;
-  */
 }
 
 #ear-2 {
@@ -59,24 +45,32 @@ to position them
   width: 25px;
   height: 25px;
   background: black;
+  top: 160px;
+  left: 180px;
 }
 
 #eye-2 {
   width: 25px;
   height: 25px;
   background: black;
+  top: 160px;
+  left: 220px:
 }
 
 #nose {
   width: 45px;
   height: 45px;
   background: black;
+  top:180px;
+  left: 260px;
 }
 
 #mouth {
   width: 35px;
   height: 35px;
   background: red;
+  top: 220px;
+  left: 170px;
 }
 
 #body {
@@ -99,6 +93,8 @@ to position them
   width: 32px;
   height: 32px;
   background: black;
+  top: 310px;
+  left: 300px;
 }
 
 #foot-1 {
