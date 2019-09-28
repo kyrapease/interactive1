@@ -1,0 +1,28 @@
+
+/* reset styles */
+* {
+        margin: 0px; padding: 0px;
+}
+
+/* make the background of the page black */
+body {
+  background-color: black;
+}
+
+/* flag canvas */
+#canvas {
+        width: 500px;
+        height: 300px;
+        position: relative;
+        background: white;
+}
+
+/* shapes */
+
+#rectangle {
+    width: 500px;
+    height: 300px;
+         background:linear-gradient(30deg, #ff0000 41.67%, #ffffff 41.67%, #ffffff 50%, #ff0000 50%, #ff0000 91.67%, #ffffff 91.67%, #ffffff 100%);
+         left: 150px;
+         top: 10px;
+       }
