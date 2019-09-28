@@ -2,7 +2,7 @@ body {
   background-image: url("clouds.jpg");
   background-repeat:no-repeat;
   background-size: cover;
-  background-position: center; 
+  background-position: center;
   width: 500%;
   opacity: 25%;
 }
