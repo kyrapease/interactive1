@@ -1,0 +1,50 @@
+
+/* reset styles */
+* {
+        margin: 0px; padding: 0px;}
+
+/* make the background of the page black */
+body {
+        background: black;
+}
+
+/* flag canvas */
+#canvas {
+        width: 1000px;
+        height: 600px;
+        position: relative;
+        background: #092464;
+}
+
+/* shapes */
+#circle {
+  width: 220px;
+  height:220px;
+  border-radius: 150px;
+  background: #f9d849;
+  position: absolute;
+  top: 180px;
+  left:270px;
+}
+#pacman {
+
+  height: 0px;
+width: 0px;
+border-radius: 200px;
+border-top: 200px solid #b02532;
+border-left: 200px solid #b02532;
+border-right: 200px solid transparent;
+border-bottom: 200px solid #b02532;
+    position: absolute;
+      top: 90px;
+      left:180px;
+    }
+
+#rectangle {
+  width: 1000px;
+  height: 200px;
+  background: white;
+  position: absolute;
+  top: 200px;
+  left: 0px;
+}
