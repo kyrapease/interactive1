@@ -1,0 +1,64 @@
+
+/* reset styles */
+* {
+        margin: 0px; padding: 0px;
+}
+
+/* make the background of the page black */
+body {
+        background:#b693d2 ;
+}
+
+/* flag canvas */
+#canvas {
+        width: 500px;
+        height: 300px;
+        position: relative;
+        background: black;
+}
+
+/* shapes */
+#moon {
+   width: 80px;
+   height: 80px;
+   border-radius: 50%;
+   box-shadow: 15px 15px 0 0 yellow;
+ }
+
+#circle {
+  width: 180px;
+  height: 180px;
+  background: pink;
+  border-radius: 105px;
+  position: absolute;
+  left:175px;
+  top:75px;
+}
+#rectangle {
+  width: 500px;
+  height: 15px;
+  background: white;
+  position: absolute;
+  left: 0px;
+  top: 135px;
+}
+
+#rectangle2 {
+  width: 307px;
+  height: 15px;
+  background: white;
+  transform: rotate(90deg);
+  position: absolute;
+  left: 100px;
+  top: 140px;
+}
+
+#circle2 {
+  width: 180px;
+  height: 180px;
+  background: purple;
+  border-radius: 75px;
+  position: absolute;
+  left: 75px;
+  top: 75px;
+}
