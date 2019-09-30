@@ -6,7 +6,7 @@
 
 /* make the background of the page black */
 body {
-        background:#b693d2 ;
+        background: #b693d2;
 }
 
 /* flag canvas */
@@ -14,7 +14,7 @@ body {
         width: 500px;
         height: 300px;
         position: relative;
-        background: black;
+        background: #152033;
 }
 
 /* shapes */
@@ -22,43 +22,127 @@ body {
    width: 80px;
    height: 80px;
    border-radius: 50%;
-   box-shadow: 15px 15px 0 0 yellow;
+   box-shadow: 15px 15px 0 0 #ede893;
+   position: absolute;
+   top:90px;
+   left: 320px;
  }
 
-#circle {
-  width: 180px;
-  height: 180px;
-  background: pink;
-  border-radius: 105px;
-  position: absolute;
-  left:175px;
-  top:75px;
-}
-#rectangle {
-  width: 500px;
-  height: 15px;
-  background: white;
-  position: absolute;
-  left: 0px;
-  top: 135px;
+
+#earth {
+  background-position: absolute;
+  background size: cover;
+  background-image: url("https://image.flaticon.com/icons/svg/814/814513.svg");
+  width: 190px;
+  height: 190px;
+  top: 180px;
+  left: 80px;
 }
 
-#rectangle2 {
-  width: 307px;
-  height: 15px;
-  background: white;
-  transform: rotate(90deg);
+
+p {
+  font-size: 40px;
+  transform: rotate(45deg);
+  color: #ede893;
   position: absolute;
-  left: 100px;
-  top: 140px;
+  top: 30px;
+  left: 350px;
 }
 
-#circle2 {
-  width: 180px;
-  height: 180px;
-  background: purple;
-  border-radius: 75px;
+p1 {
+  font-size: 40px;
+  color: #ede893;
   position: absolute;
-  left: 75px;
-  top: 75px;
+  top: 170px;
+  left: 230px;
+}
+
+p2 {
+  font-size: 40px;
+  transform: rotate(-45deg);
+  color: #ede893;
+  position: absolute;
+  top: 220px;
+  left: 410px;
+}
+
+p3 {
+  font-size: 40px;
+  transform: rotate(45deg);
+  color: #ede893;
+  position: absolute;
+  top: 210px;
+  left: 20px;
+}
+
+p4 {
+  font-size: 20px;
+  transform: rotate(45deg);
+  color: #ede893;
+  position: absolute;
+  top: 80px;
+  left: 210px;
+}
+
+p5 {
+  font-size: 20px;
+  transform: rotate(-45deg);
+  color: #ede893;
+  position: absolute;
+  top: 125px;
+  left: 300px;
+}
+
+p6 {
+  font-size: 20px;
+  transform: rotate(-45deg);
+  color: #ede893;
+  position: absolute;
+  top: 175px;
+  left: 165px;
+}
+
+p7 {
+  font-size: 20px;
+  transform: rotate(-45deg);
+  color: #ede893;
+  position: absolute;
+  top: 252px;
+  left: 95px;
+}
+
+p8 {
+  font-size: 20px;
+  transform: rotate(-45deg);
+  color: #ede893;
+  position: absolute;
+  top: 155px;
+  left: 434px;
+}
+
+p9 {
+  font-size: 20px;
+  transform: rotate(-45deg);
+  color: #ede893;
+  position: absolute;
+  top: 8px;
+  left: 267px;
+}
+
+p10 {
+  font-size: 20px;
+  transform: rotate(-45deg);
+  color: #ede893;
+  position: absolute;
+  top: 40px;
+  left: 460px;
+}
+
+p11 {
+  font-size: 20px;
+  transform: rotate(-45deg);
+  color: #ede893;
+  position: absolute;
+  top: 245px;
+  left: 320px;
 }
