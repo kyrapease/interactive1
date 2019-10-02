@@ -75,7 +75,7 @@ img {
 /* Standard syntax */
 @keyframes translate {
   0% { transform: translate(0px, 0px); }
-  100% { transform: translate(0px, -260px); }
+  100% { transform: translate(0px, -265px); }
 }
 
 #pacman {
