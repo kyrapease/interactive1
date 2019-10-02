@@ -20,6 +20,7 @@ p {
         position: fixed;
         position: center;
         background: #092464;
+        overflow: hidden;
 }
 
 /* shapes */
@@ -49,7 +50,7 @@ img {
   border-radius: 150px;
   background: #f9d849;
   position: absolute;
-  top: 180px;
+  top: 450px;
   left:270px;
   z-index: 3;
 }
@@ -61,25 +62,20 @@ img {
   -webkit-animation-timing-function: linear;
   animation-name: translate;
   animation-duration: 8.6s;
-  animation-iteration-count:infinite;
-  animation-timing-function: linear;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
 }
 
-@-webkit-keyframes translate {
+/*@-webkit-keyframes translate {
   0% { transform: translate(0px, 0px); }
-  25% { transform: translate(0px, 100px); }
-  50% { transform: translate(0px, 200px); }
-  75% { transform: translate(0px, 0px); }
-  100% { transform: translate(0px, 100px); }
+
+  100% { transform: translate(0px, 180px); }
 }
 
 /* Standard syntax */
 @keyframes translate {
-  0% { transform: translate(0px, 10px); }
-  25% { transform: translate(0px, 230px); }
-  50% { transform: translate(0px, 200px); }
-  75% { transform: translate(0px, 0px); }
-  100% { transform: translate(0px, 0px); }
+  0% { transform: translate(0px, 0px); }
+  100% { transform: translate(0px, -260px); }
 }
 
 #pacman {
