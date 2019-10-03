@@ -1,0 +1,64 @@
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  background: #b3d5fb;
+  font-size: 100px;
+  font-family: 'Love Ya Like A Sister', cursive;
+}
+
+#question {
+  font-family: font-family: 'Love Ya Like A Sister', cursive;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  background: #b3d5fb;
+  color: #476faa;
+  width: 100vw;
+  height: 100vh;
+}
+#answer {
+  display: none;
+}
+
+
+
+/* hidden message */
+@media (max-width: 1200px) {
+  body {
+
+  }
+  img {
+    background: cover;
+    position: absolute;
+    height: 800px;
+    width: auto;
+    z-index: -1;
+  }
+
+#text {
+  position: absolute;
+  top: 390px;
+  left: 527px;
+  transform: rotate(-3deg);
+}
+
+  #answer {
+    font-family: 'Love Ya Like A Sister', cursive;
+    font-size: 27px;
+    display: flex;
+    color: white;
+    width: 100vw;
+    height: 100vh;
+    z-index: 2;
+
+  }
+  #question {
+    display: none;
+  }
+}
