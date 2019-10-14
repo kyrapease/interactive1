@@ -17,25 +17,88 @@ img {
   margin-right: auto;
 }
 
-#navbar {
-  background:blue;
-  height: 60px;
+.navbar {
+  background-color: pink;
   position: sticky;
-  top: 0;
-  color: black;
-}
-#nav div {
-  display: inline-block;
-  padding-right: 20px;
+  top: 0px;
+  height: 120px;
+  display: table;
+  text-align: justify;
+  float: none;
+  margin: 0 auto;
+  table-layout: fixed;
 
 }
+li {
+  margin: auto;
+  text-align: center;
+  text-transform: none;
+  font-family: 'Crimson Text', serif;
+  font-style: italic;
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: 1px;
+  line-height: 17px;
+  position: relative;
+display: block;
+padding: 10px 15px;
+}
 
+#nav {
+  display: block;
+  padding-right: 150px;
+  padding-left: 150px;
+  margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+.body {
+  margin: auto;
+max-width: 1500px;
+text-align: justify;
+margin-bottom: 50px;
+padding-top: 100px;
+padding-bottom: 20px;
+background-color: #FFF;
+}
+
+.row {
+  margin-right: -15px;
+  margin-left: -15px;
+}
+@media (min-width:992px){
+.collumn1 {
+  width: 33.33333333%;
+  align-items:center;
+  padding-left: 15px;
+  padding-right: 15px;
+  display: block;
+}
+
+@media (min-wdith 992px) {
+.collumn2 {
+  width: 33.33333333%;
+  align-items:center;
+  padding-left: 15px;
+  padding-right: 15px;
+  display: block;
+}
+}
+
+.collumn3 {
+  width: 33.33333333%;
+  align-items:center;
+  padding-left: 15px;
+  padding-right: 15px;
+  display: block;
+}
+}
 .collage {
   display: flex;
   align-items: center;
   width: 70%;
-  margin-top: 40px;
-  margin-bottom: 40px;
 }
 
 .collage img {
@@ -87,11 +150,21 @@ h2 {
 }
 
 p {
-    font-size: 20px;
+    font-size: 15px;
     font-family: "Source Sans Pro",sans-serif;
     font-style: normal;
-    line-height: 30.5px;
-    text-transform: lowercase;
+    color: #3B444B;
+    margin-left: 175px;
+    margin-right: 175px;
+    top: 60px;
+    margin-bottom: 75px;
+}
+
+p1 {
+  font-size: 14px;
+  font-family: "Source Sans Pro", sans-serif;
+  font-style: normal;
+  color: #3B444B;
 }
 
 .columns {
