@@ -8,12 +8,10 @@ body {
   position: fixed;
   display: block;
   top: 0px;
-  height: 45px;
+  height: 50px;
   width: 100%;
 }
-.nav a:hover {
-  color: purple;
-}
+
 #navstyle {
   font-size: 18px;
   font-family: 'Raleway', sans-serif;
@@ -172,7 +170,7 @@ ul {
   align-items: center;
   display: block;
   margin-left: 500px;
-  margin-top: 900px;
+  margin-top: 950px;
   z-index: -5;
 }
 
@@ -181,11 +179,59 @@ ul {
 .rectangle3 {
   width: 550px;
   height: 800px;
-  background-color: blue;
+  background-color: red;
   position: absolute;
   align-items: center;
   display: block;
   margin-left: 500px;
   margin-top: 1800px;
+  z-index: -3;
+}
+
+.rectangle4 {
+  width: 550px;
+  height: 800px;
+  background-color: purple;
+  position: absolute;
+  align-items: center;
+  display: block;
+  margin-left: 500px;
+  margin-top: 2650px;
+  z-index: -5;
+}
+
+.rectangle5 {
+  width: 550px;
+  height: 800px;
+  background-color: pink;
+  position: absolute;
+  align-items: center;
+  display: block;
+  margin-left: 500px;
+  margin-top: 3500px;
+  z-index: -5;
+}
+
+.rectangle6 {
+  width: 550px;
+  height: 800px;
+  background-color: yellow;
+  position: absolute;
+  align-items: center;
+  display: block;
+  margin-left: 500px;
+  margin-top: 4350px;
+  z-index: -5;
+}
+
+.rectangle7 {
+  width: 550px;
+  height: 800px;
+  background-color: orange;
+  position: absolute;
+  align-items: center;
+  display: block;
+  margin-left: 500px;
+  margin-top: 5200px;
   z-index: -5;
 }
