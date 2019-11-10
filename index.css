@@ -3,7 +3,6 @@
  body {
 background-image:url("pictures/clouds1.jpg");
 background-size: cover;
-overflow: hidden;
 position: cover;
 width: 100%;
 opacity: 25%;
