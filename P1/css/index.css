@@ -87,10 +87,20 @@ ul {
   position: fixed;
   display: block;
   margin-right: 200px;
-  margin-left: 1200px;
+  margin-left: 1100px;
   margin-top: 80px;
 }
 
+.sponsoredrectangle2 {
+  width: 300px;
+  height: 500px;
+  background-color: white;
+  position: fixed;
+  display: block;
+  margin-right: 200px;
+  margin-left: 1100px;
+  margin-top: 680px;
+}
 
 .rectangle1 {
   width: 550px;
