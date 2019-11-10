@@ -8,6 +8,7 @@ position: cover;
 width: 100%;
 opacity: 25%;
 animation: clouds 105s linear infinite;
+z-index: -5;
 }
 
 @keyframes clouds {
