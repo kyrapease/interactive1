@@ -41,8 +41,15 @@ a {
 }
 
 .icon {
-  width: 10%;
+  width: 30%;
   display: block;
+  margin-top: 40px;
+  margin-bottom: 15px;
+  padding-left: 15px;
+}
+
+#home {
+  width: 10%;
 }
 
 .sidemenu {
@@ -56,6 +63,10 @@ a {
   font-family: sans-serif;
   font-size: 30px;
   text-decoration: none;
+}
+
+a {
+  color: purple;
 }
 
 ul {
@@ -94,12 +105,21 @@ ul {
 #feed-col {
   background: #f4f4f4;
   width: 550px;
+  margin-top: 80px;
+  position: sticky;
 }
 
 #ads-col {
   background: green;
   width: 300px;
   max-height: 2000px;
+  position: relative;
+
+}
+
+.click {
+  z-index: -5;
+  width: 100%;
 
 }
 
@@ -109,6 +129,7 @@ ul {
   background-color: white;
   display: block;
   margin-top: 80px;
+  position: sticky;
 }
 
 .sponsoredrectangle2 {
@@ -117,7 +138,20 @@ ul {
   background-color: white;
   display: block;
   margin-top: 680px;
+  position: sticky;
 }
+
+.rectangle0 {
+  width: 100%;
+  height: 200px;
+  background-color: white;
+  align-items: center;
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 40px;
+  z-index: -5;
+}
+
 
 .rectangle1 {
   width: 100%;
@@ -131,9 +165,18 @@ ul {
 }
 
 .profilephotos {
-  width: 10%;
-  margin-left:10px;
+  width: 13%;
+  padding-left:30px;
   padding-top: 20px;
+  float: left;
+  display: inline;
+}
+
+img {
+  display: inline;
+}
+
+.meprofile {
   display: inline;
 }
 
@@ -142,10 +185,11 @@ ul {
   font-family: sans-serif;
   font-style: bold;
   font-size: 25px;
-  padding-left: 85px;
-  padding-top: 30px;
+  padding-left: 125px;
+  padding-top: 40px;
   padding-bottom:10px;
   color: #657bb5;
+  /* display: inline; */
 }
 
 .caption {
@@ -155,7 +199,7 @@ ul {
   margin-left: 20px;
   margin-right: 30px;
   color: black;
-  margin-top: 15px;
+  padding-top: 35px;
   margin-bottom: 15px;
 }
 
@@ -166,6 +210,18 @@ ul {
   margin-right: auto;
   max-width:95%;
   /* position: absolute; */
+}
+
+
+.rectangle2 {
+  background-color: white;
+  width: 100%;
+  height: 900px;
+  align-items: center;
+  display: block;
+  margin-top: 30px;
+  margin-bottom: 100px;
+  z-index: -3;
 }
 
 .likes {
@@ -182,134 +238,70 @@ ul {
   padding-right: 40px;
 }
 
+
+#popup2 {
+  position: fixed;
+}
+
+.overlay {
+  position: absolute;
+  top: 0px;
+  bottom: 0;
+  left: 0px;
+  right: 0;
+  transition: opacity 100ms;
+  visibility: hidden;
+  opacity: 0;
+}
+
+.overlay:target {
+  visibility: visible;
+  opacity: 100%;
+}
+
+.popup {
+  margin-left: 300px;
+  margin-top: 300px;
+  padding: 20px;
+  background: red;
+  border: 1px solid #666;
+  width: 300px;
+  height: 300px;
+  box-shadow: 0 0 5px rgba(0,0,0,0.5);
+  position: relative;
+  font-size: 40px;
+  font-family: sans-serif;
+}
+
 .like {
-  font-size: 30px;
+  font-size: 50px;
   font-family: sans-serif;
-  font-weight: bold;
-  margin-left: 100px;
-  margin-top: 500px;
+  padding-left: 50px;
+  padding-top: 30px;
   color: red;
-  z-index: 5;
-}
-
-.overlay {
   position: absolute;
-  top: 0px;
-  bottom: 0;
-  left: 0px;
-  right: 0;
-  transition: opacity 100ms;
-  visibility: hidden;
-  opacity: 0;
-}
-
-.overlay:target {
-  visibility: visible;
-  opacity: 100%;
-}
-
-.popup {
-  margin: 75px auto;
-  padding: 20px;
-  background: #9cbad9;
-  border: 1px solid #666;
-  width: 400px;
-  height: 400px;
-  box-shadow: 0 0 5px rgba(0,0,0,0.5);
-  position: relative;
-  font-size: 40px;
-  font-family: sans-serif;
-  z-index: 1
 }
 
 .close {
   position: absolute;
   width: 20px;
   height: 20px;
-  top: 900px;
-  right: 20px;
+  padding-left: 480px;
+  padding-top: 0px;
   opacity: 1.0;
   transition: all 200ms;
-  font-size: 30px;
+  font-size: 48px;
   font-weight: bold;
   text-decoration: none;
-  color: black;
+  color: purple;
 }
-
-
-
-.rectangle2 {
-  background-color: white;
-  width: 100%;
-  /* position: absolute; */
-  align-items: center;
-  display: block;
-  margin-top: 30px;
-  margin-bottom: 100px;
-  z-index: -5;
-}
-
-.overlay {
-  position: absolute;
-  top: 0px;
-  bottom: 0;
-  left: 0px;
-  right: 0;
-  transition: opacity 100ms;
-  visibility: hidden;
-  opacity: 0;
-}
-
-.overlay:target {
-  visibility: visible;
-  opacity: 100%;
-}
-
-.popup {
-  margin: 75px auto;
-  padding: 20px;
-  background: #9cbad9;
-  border: 1px solid #666;
-  width: 400px;
-  height: 400px;
-  box-shadow: 0 0 5px rgba(0,0,0,0.5);
-  position: relative;
-  font-size: 40px;
-  font-family: sans-serif;
-  z-index: 1
-}
-
-.thumbsup {
-  font-size: 40px;
-  font-family: sans-serif;
-  font-weight: bold;
-  margin-left: 30px;
-  margin-top: 20px;
-  color: red;
-  z-index: 1;
-}
-
-.close {
-  position: absolute;
-  width: 20px;
-  height: 20px;
-  top: 900px;
-  right: 20px;
-  opacity: 1.0;
-  transition: all 200ms;
-  font-size: 30px;
-  font-weight: bold;
-  text-decoration: none;
-  color: black;
-}
-
 
 
 
 .rectangle3 {
   background-color: white;
   width: 100%;
-  height: 900px;
+  height: 1000px;
   align-items: center;
   display: block;
   margin-top: 30px;
@@ -325,6 +317,7 @@ ul {
   display: block;
   width: 100%;
   margin-bottom: 100px;
+  height: 1000px;
   z-index: -5;
 }
 
@@ -372,7 +365,7 @@ ul {
   /* position: absolute; */
   align-items: center;
   display: block;
-  height: 900px;
+  height: 1000px;
   margin-top: 30px;
   margin-bottom: 100px;
   z-index: -5;
@@ -384,7 +377,7 @@ ul {
   align-items: center;
   display: block;
   width: 100%;
-  height: 1000px;
+  height: 950px;
   margin-top: 30px;
   margin-bottom: 100px;
   z-index: -5;
@@ -395,7 +388,7 @@ ul {
   /* position: absolute; */
   align-items: center;
   width: 100%;
-  height: 1000px;
+  height: 1050px;
   margin-top: 30px;
   margin-bottom: 100px;
   z-index: -5;
@@ -409,6 +402,18 @@ ul {
   align-items: center;
   width: 100%;
   height: 900px;
+  margin-top: 30px;
+  margin-bottom: 100px;
+  z-index: -5;
+}
+
+
+.rectangle11 {
+  background-color: white;
+  /* position: absolute; */
+  align-items: center;
+  width: 100%;
+  height: 850px;
   margin-top: 30px;
   margin-bottom: 100px;
   z-index: -5;
