@@ -113,7 +113,7 @@ ul {
   background: green;
   width: 300px;
   max-height: 2000px;
-  position: sticky;
+  position: static;
 
 }
 
@@ -218,7 +218,7 @@ img {
   font-size: 18px;
   font-style: bold;
   font-family: sans-serif;
-  color: 15% of teens who have sent or posted nude/semi-nude images of themselves send these messages to people they have never met, but know from the Internet.
+  color: #657bb5;
   padding-top: 30px;
 }
 
@@ -290,13 +290,21 @@ img {
   color: #fff;
 }
 
+.like-icon {
+  width: 13%;
+  padding-left: 20px;
+  padding-top: 30px;
+  float:left;
+  display: inline;
+}
+
 .like {
   font-size: 40px;
   font-family: sans-serif;
   font-weight: bold;
-  padding-left: 30px;
+  padding-left: 10px;
   color: #657bb5;
-  padding-top: 30px;
+  padding-top: 50px;
 }
 
 

@@ -1,0 +1,30 @@
+body {
+  background-color: #f4f4f4;
+  align-items: center;
+}
+
+
+#grid-container {
+  /* border: 2px solid black; */
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-column-gap: 50px;
+  width: 75%;
+  margin-left: 15%;
+
+}
+
+#photo-col {
+  background: red;
+  width: 450px;
+  margin-top: 80px;
+  position: sticky;
+}
+
+#status-col {
+  background: green;
+  width: 600px;
+  margin-top: 80px;
+  position: sticky;
+
+}
