@@ -3,28 +3,156 @@ body {
   align-items: center;
 }
 
-
-#grid-container {
-  /* border: 2px solid black; */
-  display: grid;
-  grid-template-columns: 1fr 2fr;
-  grid-column-gap: 50px;
-  width: 65%;
-  margin-left: 25%;
-
+.nav {
+  background-color: black;
+  position: fixed;
+  display: block;
+  top: 0px;
+  height: 50px;
+  width: 100%;
+  z-index: 1000;
 }
 
-#feed-col {
-  background: #f4f4f4;
-  width: 550px;
-  margin-top: 80px;
-  position: sticky;
+#navstyle {
+  font-size: 18px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+  text-decoration: none;
+  top: 5px;
 }
 
-#ads-col {
-  background: green;
-  width: 300px;
-  max-height: 2000px;
-  position: sticky;
+a {
+  display: inline-block;
+  color: #ffffff;
+  text-align: left;
+  font-weight: bold;
+  padding-left:0px;
+  padding-right: 50px;
+  padding-top: 5px;
+  padding-bottom: 20px;
+  text-decoration: none;
+}
 
+.logo {
+  position: fixed;
+  top: 80px;
+  left: 25px;
+  width: 12%;
+}
+
+.icon {
+  width: 30%;
+  display: block;
+  margin-top: 40px;
+  margin-bottom: 15px;
+  padding-left: 15px;
+}
+
+#home {
+  width: 10%;
+}
+
+.sidemenu {
+  width: auto;
+  padding-left: 5px;
+  padding-top: 120px;
+  margin-right: 0px;
+  position: fixed;
+  display: block;
+  color: gray;
+  font-family: sans-serif;
+  font-size: 30px;
+  text-decoration: none;
+}
+
+a {
+  color: gray;
+}
+
+ul {
+  display: block;
+  position:sticky;
+}
+
+.sidelist1:hover {
+  color: orange;
+  animation: pulse .5s alternate infinite;
+}
+
+.sidelist2:hover  {
+  color: blue;
+  animation: pulse .5s alternate infinite;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);}
+  100% {
+    transform: scale(1.01);
+  }
+}
+
+.header {
+  font-size: 50px;
+  font-weight: bold;
+  font-family: sans-serif;
+  color: #657bb5;
+  text-align: center;
+  padding-left: auto;
+  padding-top: 80px;
+}
+
+.bigtext {
+  font-size: 30px;
+  font-weight: normal;
+  font-family: sans-serif;
+  color: black;
+  text-align: center;
+  padding-left: auto;
+  padding-top: 30px;
+}
+
+.gif {
+  float: left;
+  width: 20%;
+  margin-left: 250px;
+  padding-top: 80px;
+  display: inline;
+}
+
+.gif2 {
+  padding-top:80px;
+  float: right;
+  width: 35%;
+  padding-right: 170px;
+  display: inline;
+}
+
+.align {
+  display: inline;
+}
+
+.paragraph {
+  margin-top: 600px;
+  margin-left: 400px;
+  margin-right: 400px;
+  text-align: center;
+  font-size: 18px;
+  font-family: sans-serif;
+  color: black;
+  padding: auto;
+  padding-top: 40px;
+}
+
+.other-paragraph {
+  margin-top: 40px;
+  margin-left: 400px;
+  margin-right: 400px;
+  margin-bottom: 30px;
+  text-align: center;
+  font-size: 18px;
+  font-family: sans-serif;
+  color: black;
+  padding: auto;
+  padding-top: 40px;
 }
