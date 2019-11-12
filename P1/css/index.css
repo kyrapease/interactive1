@@ -21,6 +21,10 @@ body {
   top: 5px;
 }
 
+.nav:hover {
+  color: white;
+}
+
 a {
   display: inline-block;
   color: #ffffff;
@@ -80,7 +84,7 @@ ul {
 }
 
 .sidelist2:hover  {
-  color: blue;
+  color: orange;
   animation: pulse .5s alternate infinite;
 }
 
@@ -113,7 +117,7 @@ ul {
   background: #f4f4f4;
   width: 300px;
   max-height: 2000px;
-  position: static;
+  position: sticky;
 
 }
 
@@ -491,4 +495,15 @@ img {
   width: 97%;
   margin-left: 10px;
   padding-top: 20px;
+}
+
+.popup-ad {
+  margin: 75px auto;
+  padding: 20px;
+  background: #fff;
+  border: 1px solid #666;
+  width: 200px;
+  height: 800px;
+  box-shadow: 0 0 50px rgba(0,0,0,0.5);
+  position: relative;
 }
