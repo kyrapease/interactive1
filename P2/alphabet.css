@@ -1,0 +1,205 @@
+body {
+  background-color: #f5f5f5;
+  opacity: 100%;
+}
+
+.square1 {
+width: 13%;
+padding-left: 2px;
+padding-top: 1%;
+position: absolute;
+z-index: 50;
+}
+
+.halfOval1 {
+  background-color: black;
+  width: 80px;
+  height: 17px;
+  margin-top: 2%;
+  margin-left: 6%;
+  border-radius: 50% 50% 0 0/ 100% 100% 0 0;
+  position: absolute;
+  display: inline;
+  float: left;
+  z-index: 5;
+}
+
+.rightLeaning {
+  transform: rotate(48deg);
+}
+
+.halfOval2 {
+  background-color: black;
+  width: 80px;
+  height: 17px;
+  margin-top: 2%;
+  margin-left: 2.25%;
+  border-radius: 50% 50% 0 0/ 100% 100% 0 0;
+  position: absolute;
+  display: inline;
+  float: left;
+  z-index: 5;
+}
+
+.leftLeaning {
+  transform: rotate(-48deg);
+}
+
+.arrow-left1 {
+  width: 0;
+  height: 0;
+  border-top: 60px solid transparent;
+  border-bottom: 60px solid transparent;
+  border-right: 50px solid black;
+  margin-left: .25%;
+  margin-top: 5%;
+  display: inline;
+  position: absolute;
+  float: left;
+  z-index: 5;
+}
+
+.arrow-right1 {
+  width: 0;
+  height: 0;
+  border-top: 60px solid transparent;
+  border-bottom: 60px solid transparent;
+  border-left: 50px solid black;
+  margin-left: 9.75%;
+  margin-top: 5%;
+  display: inline;
+  position: absolute;
+  float: left;
+}
+
+.triangle-left1 {
+  width: 0;
+  height: 0;
+  border-top: 65px solid transparent;
+  border-right: 50px solid black;
+  margin-top: 12.25%;
+  margin-left: .35%;
+  display: inline;
+  position: absolute;
+  float: left;
+}
+
+.triangle-right1 {
+  width: 0;
+  height: 0;
+  border-top: 65px solid transparent;
+  border-left: 50px solid black;
+  margin-top: 12.25%;
+  margin-left: 9.75%;
+  display: inline;
+  position: absolute;
+  float: left;
+}
+
+
+.square2 {
+  width: 13%;
+  margin-left: 20%;
+  padding-top: 1%;
+  position: absolute;
+  z-index: -50;
+}
+
+.arrow-left2 {
+  width: 0;
+  height: 0;
+  border-top: 60px solid transparent;
+  border-bottom: 60px solid transparent;
+  border-right: 50px solid black;
+  margin-left: 20.25%;
+  margin-top: 5%;
+  display: inline;
+  position: absolute;
+  float: left;
+  z-index: 60;
+}
+
+.triangle-left2 {
+  width: 0;
+  height: 0;
+  border-top: 65px solid transparent;
+  border-right: 50px solid black;
+  margin-top: 12.25%;
+  margin-left: 20.35%;
+  display: inline;
+  position: absolute;
+  float: left;
+}
+
+.triangle-left3 {
+  width: 0;
+  height: 0;
+  border-bottom: 65px solid transparent;
+  border-right: 50px solid black;
+  margin-top: 1.05%;
+  margin-left: 20.25%;
+  display: inline;
+  position: absolute;
+  float: left;
+}
+
+.halfOval3 {
+  background-color: black;
+  width: 80px;
+  height: 17px;
+  margin-top: 2.25%;
+  margin-left: 22.3%;
+  border-radius: 50% 50% 0 0/ 100% 100% 0 0;
+  position: absolute;
+  display: inline;
+  float: left;
+  z-index: 5;
+}
+
+
+.halfOval4 {
+  background-color: black;
+  width: 80px;
+  height: 17px;
+  margin-top: 2.25%;
+  margin-left: 26.25%;
+  border-radius: 50% 50% 0 0/ 100% 100% 0 0;
+  position: absolute;
+  display: inline;
+  float: left;
+  z-index: 5;
+}
+
+.halfOval-bottom-left {
+  background-color: black;
+  width: 80px;
+  height: 17px;
+  margin-top: 6.25%;
+  margin-left: 22.3%;
+  border-radius: 50% 50% 0 0/ 100% 100% 0 0;
+  position: absolute;
+  display: inline;
+  float: left;
+  z-index: 5;
+}
+
+.leftLeaning2 {
+  transform: rotate(-135deg);
+}
+
+.halfOval-bottom-right {
+  background-color: black;
+  width: 80px;
+  height: 17px;
+  margin-top: 6.25%;
+  margin-left: 26.25%;
+  border-radius: 50% 50% 0 0/ 100% 100% 0 0;
+  position: absolute;
+  display: inline;
+  float: left;
+  z-index: 5;
+}
+
+.rightLeaning2 {
+  transform: rotate(135deg);
+}
