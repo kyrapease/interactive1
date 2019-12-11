@@ -5,7 +5,7 @@ body {
 
 @media (max-width: 2000px)and (min-width: 700px) {
 
-.border1 {
+  .border1 {
   padding-top: .1%;
   width: 25%;
   opacity: 100%;
