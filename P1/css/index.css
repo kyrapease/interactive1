@@ -106,10 +106,9 @@ ul {
 
 #grid-container {
   /* border: 2px solid black; */
-  border: 2px solid green;
   display: grid;
   grid-template-columns: 1fr 2fr;
-  grid-column-gap: 5%;
+  grid-column-gap: 3%;
   width: 75%;
   margin-left: 20%;
 
