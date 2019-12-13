@@ -52,6 +52,19 @@ a {
   padding-left: 15px;
 }
 
+.main-profile {
+width: 100px;
+display: inline;
+position: fixed;
+padding-top: 6%;
+padding-left: 85%;
+z-index: 50;
+}
+
+.prof {
+  width: 40%;
+}
+
 #home {
   width: 10%;
 }
@@ -83,11 +96,6 @@ ul {
   animation: pulse .5s alternate infinite;
 }
 
-.sidelist2:hover  {
-  color: orange;
-  animation: pulse .5s alternate infinite;
-}
-
 @keyframes pulse {
   0% {
     transform: scale(1);}
@@ -98,11 +106,12 @@ ul {
 
 #grid-container {
   /* border: 2px solid black; */
+  border: 2px solid green;
   display: grid;
   grid-template-columns: 1fr 2fr;
-  grid-column-gap: 50px;
-  width: 65%;
-  margin-left: 25%;
+  grid-column-gap: 5%;
+  width: 75%;
+  margin-left: 20%;
 
 }
 
@@ -116,9 +125,9 @@ ul {
 #ads-col {
   background: #f4f4f4;
   width: 300px;
-  max-height: 2000px;
+  margin-left: 10%;
+  margin-top: 4%;
   position: sticky;
-
 }
 
 .click {
@@ -132,16 +141,16 @@ ul {
   height: 1000px;
   background-color: white;
   display: block;
-  margin-top: 80px;
+  margin-top: 35%;
   position: sticky;
 }
 
 .sponsoredrectangle2 {
   width: 100%;
-  height: 500px;
+  height: 1000px;
   background-color: white;
   display: block;
-  margin-top: 680px;
+  margin-top: 45%;
   position: sticky;
 }
 
@@ -151,7 +160,7 @@ ul {
   background-color: white;
   align-items: center;
   display: block;
-  margin-top: 10px;
+  margin-top: 4%;
   margin-bottom: 40px;
   z-index: -5;
 }
@@ -172,6 +181,7 @@ ul {
   width: 100%;
   height: 1100px;
   background-color: white;
+  border-bottom: blue;
   align-items: center;
   display: block;
   margin-top: 80px;
@@ -181,7 +191,7 @@ ul {
 }
 
 .profilephotos {
-  width: 13%;
+  width: 15%;
   padding-left:30px;
   padding-top: 20px;
   float: left;
@@ -504,6 +514,17 @@ img {
   border: 1px solid #666;
   width: 200px;
   height: 800px;
+  box-shadow: 0 0 50px rgba(0,0,0,0.5);
+  position: relative;
+}
+
+.popup-ad2 {
+  margin: 75px auto;
+  padding: 20px;
+  background: #fff;
+  border: 1px solid #666;
+  width: 200px;
+  height: 1100px;
   box-shadow: 0 0 50px rgba(0,0,0,0.5);
   position: relative;
 }
