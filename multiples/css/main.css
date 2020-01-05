@@ -7,15 +7,15 @@
 body {
     background: white;
 }
-@media (min-width:770px) {
+@media (min-width:770px)  {
 #desktop {
 
     display:inline;
     position: absolute;
-    right: 30px;
+    right: 50px;
     top: 30px;
     color: white;
-    width: 350px;
+    width: 440px;
 }
 #tablet,
 #mobile,
@@ -23,7 +23,23 @@ body {
 #extra {
     display: none;
 }
+
+.skel {
+  width: 79%;
 }
+
+.text {
+font-family: 'EB Garamond', serif;
+font-size: 20px;
+color: black;
+top: 40px;
+right: 10px;
+}
+}
+
+
+
+
 /* tablet */
 @media (min-width: 1300px) and (max-width: 1550px) {
     body {
