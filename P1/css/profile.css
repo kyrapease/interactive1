@@ -1,28 +1,60 @@
 body {
-  background-color: #f4f4f4;
+  background-color: #f4f5f8;
   align-items: center;
 }
 
+.logo {
+  position: fixed;
+  top: 9.5%;
+  left: 3%;
+  width: 12%;
+}
 
 #grid-container {
-  /* border: 2px solid black; */
+  border: 2px solid black;
   display: grid;
   grid-template-columns: 1fr 2fr;
-  grid-column-gap: 50px;
-  width: 75%;
-  margin-left: 15%;
-
+  width: 73%;
+  margin-left: 17%;
+  margin-right: 10%;
+  margin-top: 13%;
 }
 
-#photo-col {
+#profile-col {
   background: red;
-  width: 450px;
-  margin-top: 80px;
+  width: 70%;
+  margin-top: 16%;
   position: sticky;
+  border: 2px solid black;
+  align-items: center;
 }
 
-#status-col {
+#body-col {
   background: green;
-  width: 600px;
-  margin-top: 80px;
+  width: 90%;
+  margin-top: 10%;
   position: sticky;
+  border: 2px solid blue;
+}
+
+.big-photo {
+  width: 80%;
+  position: sticky;
+  align-items: center;
+  margin-top: 1vw;
+  margin-bottom: 2vw;
+}
+
+.email {
+  font-style: sans-serif;
+  font-size: 18px;
+  color: #e9ebf0;
+  align: left;
+}
+
+.rectangle {
+  width: 80%;
+  background-color: white;
+  border: 1px #e93bf0;
+  height: 3vw;
+}
