@@ -114,9 +114,9 @@ ul {
 }
 
 #chat-col {
-  background: yellow;
+  background: white;
   width: 19vw;
-  margin-top: 5%;
+  margin-top: 4%;
   position: fixed;
   margin-left: 60%;
 }
@@ -146,12 +146,12 @@ ul {
 }
 
 .rectangle0 {
-  width: 95%;
-  height: 200px;
+  width: 100%;
+  height: 11vw;
   background-color: white;
   align-items: center;
   display: block;
-  margin-top: 4%;
+  margin-top: 8%;
   margin-bottom: 40px;
   z-index: -5;
 }
@@ -177,14 +177,14 @@ ul {
 }
 
 .rectangle1 {
-  width: 95%;
-  height: 1100px;
+  width: 100%;
+  height: 62vw;
   background-color: white;
   border-bottom: blue;
   align-items: center;
   display: block;
   margin-top: 80px;
-  margin-bottom: 100px;
+  margin-bottom: 6vw;
   z-index: -5;
   position: relative;
 }
@@ -230,7 +230,7 @@ img {
 .post {
   align-items: center;
   margin-left: 8%;
-  top: 175px;
+  top: 7vw;
   margin-right: auto;
   max-width: 85%;
   /* position: absolute; */
@@ -335,11 +335,11 @@ img {
 .rectangle2 {
   background-color: white;
   width: 100%;
-  height: 900px;
+  height: 50vw;
   align-items: center;
   display: block;
   margin-top: 30px;
-  margin-bottom: 100px;
+  margin-bottom: 6vw;
   z-index: -3;
   position: relative;
 }
@@ -480,7 +480,7 @@ img {
 .nametag-2 {
   text-align: left;
   font-family: sans-serif;
-  font-style: bold;
+  font-weight: bold;
   font-size: 18px;
   padding-left: 75px;
   padding-top: 30px;
@@ -528,23 +528,29 @@ img {
 }
 
 
-.main-profile {
-  margin-top: 5%;
+.mainprofile {
+  width: 20%;
+  margin-top: 10%;
   margin-left: 70%;
-  width: 100%;
 }
 
-.prof {
+
+.chatrectangle1 {
   width: 100%;
+  height: 3vw;
+  background: white;
+  margin-top: 3%;
+  margin-bottom: 4%;
 }
 
 .nametag2 {
-  text-align: left;
+  text-align: center;
   font-family: sans-serif;
-  font-style: bold;
+  font-weight: bold;
   font-size: 25px;
   padding-left: 8%;
-  padding-top: 3%;
+  padding-top: 6%;
+  padding-right: 8%;
   padding-bottom: 4%;
   color: #657bb5;
 }
@@ -553,7 +559,7 @@ img {
   font-size: 18px;
   font-family: sans-serif;
   margin-left: 3%;
-  padding-top: 8%;
+  padding-top: 6%;
   display: inline;
   float: left;
 }
@@ -561,15 +567,71 @@ img {
 .profilechat {
   width: 12%;
   padding-left: 8%;
-  padding-top: 5%;
+  padding-top: 3%;
   float: left;
   display: inline;
 }
 
 .greendot {
-  width: 6%;
+  width: 5%;
   padding-right: 8%;
-  padding-top: 8%;
+  padding-top: 6%;
   display: inline;
   float: right;
+}
+
+.chatrectangle2 {
+  width: 100%;
+  background: white;
+  margin-top: 5%;
+  height: 3vw;
+}
+
+.chatrectangle3 {
+  width: 100%;
+  background: white;
+  margin-top: 5%;
+  height: 3vw;
+}
+
+.chatrectangle4 {
+  width: 100%;
+  background: white;
+  margin-top: 5%;
+  height: 3vw;
+}
+
+.chatrectangle5 {
+  width: 100%;
+  background: white;
+  margin-top: 5%;
+  height: 3vw;
+}
+
+.chatrectangle6 {
+  width: 100%;
+  background: white;
+  margin-top: 5%;
+  margin-bottom: 10%;
+  height: 3vw;
+}
+
+.chatrectangle7 {
+  width: 90%;
+  border: 2px solid #657bb5;
+  height: 4vw;
+  margin-bottom: 7%;
+  margin-left: 5%;
+}
+
+.message {
+  text-align: center;
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 25px;
+  padding-left: 8%;
+  padding-top: 3%;
+  padding-right: 8%;
+  padding-bottom: 4%;
+  color: #657bb5;
 }
